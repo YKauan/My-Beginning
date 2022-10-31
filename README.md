@@ -1,2 +1,2 @@
-# Aprendendo-o-Basico
-1 semana estudando logica de programação e algoritmo, utilizando o portugol no visualG
+--Iniciando o curso de Ciencias da Computacao.
+--Postando meus primeiros progamas, para no futuro visualizar o quanto eu evolui.
