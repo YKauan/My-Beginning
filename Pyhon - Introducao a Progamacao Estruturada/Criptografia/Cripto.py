@@ -37,6 +37,9 @@ if choice == '1':
       while vld != 'y' or vld != 'n' or vld == 'y' or vld == 'n':
         if vld == 'y' and vld != 'n':
           print("[purple]\nArquivo sobrescrevido![/]")
+          arq = open("file.txt", "w")
+          arq.write(input("\nInforme a mensagem a ser Criptografada: "))
+          arq.close()
           break
         elif vld != 'y' and vld == 'n':
           print("[green]\nArquivo mantido![/]\n\n[purple]Mova o aquivo e faca o processo novamente[/]! \n\n[red]Finalizando o progama![/]")
